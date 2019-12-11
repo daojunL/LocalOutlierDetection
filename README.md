@@ -28,7 +28,7 @@ They are:
 * Job 4: Compute LRD
 * Job 5: compute LOF
 
-Instead of using skew-aware partitioning, we simplied the partitioning part and self-defined the partitioning method based on our customized dataset. By simpling this step which is hard to implement, we can still focus on the Data Driven KNN search. Though we simplied this step, we need to do some preparation in the "CalSuppBound.java" before we implement our DDLOF algorithm.
+Instead of using skew-aware partitioning, we simplified the partitioning part and self-defined the partitioning method based on our customized dataset. By simplifing this step which is hard to implement, we can still focus on the Data Driven KNN search. Though we simplied this step, we need to do some preparation in the "CalSuppBound.java" before we implement our DDLOF algorithm.
 
 By running the "CalSuppBound.java", we can calculate every grid's extended distances. The output result will be stored in a file which we will later use in our distributed LOF process. In personal computer, the path of output result is:
 
