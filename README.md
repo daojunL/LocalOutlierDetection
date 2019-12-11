@@ -22,11 +22,11 @@ According to the paper ***Distributed Local Outier Detection in Big Data***, the
 
 They are:
 
-* Skew-aware Partitioning
-* Core Partition KNN search
-* Support Partition KNN search 
-* Compute LRD
-* compute LOF
+* Job 1: Skew-aware Partitioning
+* Job 2: Core Partition KNN search
+* Job 3: Support Partition KNN search 
+* Job 4: Compute LRD
+* Job 5: compute LOF
 
 Instead of using skew-aware partitioning, we simplied the partitioning part and self-defined the partitioning method based on our customized dataset. By simpling this step which is hard to implement, we can still focus on the Data Driven KNN search. Though we simplied this step, we need to do some preparation in the "CalSuppBound.java" before we implement our DDLOF algorithm.
 
@@ -47,6 +47,7 @@ The output of the first job will be the input of the second job. The output of t
 
 ### Reference
 [1]. Breunig, Markus & Kriegel, Hans-Peter & Ng, Raymond & Sander, Joerg. (2000). LOF: Identifying Density-Based Local Outliers.. ACM Sigmod Record. 29. 93-104. 10.1145/342009.335388. 
+
 [2]. Yan, Yizhou & Cao, Lei & Kuhlman, Caitlin & Rundensteiner, Elke. (2017). Distributed Local Outlier Detection in Big Data. 1225-1234. 10.1145/3097983.3098179. 
 
 
