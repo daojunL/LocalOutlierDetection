@@ -45,7 +45,7 @@ In the "DDLof.java" file, we have four jobs, they are:
 
 The output of the first job will be the input of the second job. The output of the second job will be the input of the third job. The output of the third job will be the input of the fourth job. Thus, in the main configuration, we link the four jobs together to run in sequence. 
 
-### Reference
+### References
 [1]. Breunig, Markus & Kriegel, Hans-Peter & Ng, Raymond & Sander, Joerg. (2000). LOF: Identifying Density-Based Local Outliers.. ACM Sigmod Record. 29. 93-104. 10.1145/342009.335388. 
 
 [2]. Yan, Yizhou & Cao, Lei & Kuhlman, Caitlin & Rundensteiner, Elke. (2017). Distributed Local Outlier Detection in Big Data. 1225-1234. 10.1145/3097983.3098179. 
