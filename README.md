@@ -1,6 +1,6 @@
 # Data-Driven Distributed LOF 
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+Implemented the local outlier detection algorithm in a distributed way.
 
 ### Production Environment 
 IntelliJ + Maven
